@@ -14,14 +14,14 @@
 		18763A0B286348960041FFDE /* iOSTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A0A286348960041FFDE /* iOSTestAppTests.swift */; };
 		18763A15286348960041FFDE /* iOSTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A14286348960041FFDE /* iOSTestAppUITests.swift */; };
 		18763A17286348960041FFDE /* iOSTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A16286348960041FFDE /* iOSTestAppUITestsLaunchTests.swift */; };
-		18763A2628634C4B0041FFDE /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A2428634C4B0041FFDE /* ContactsTableViewCell.swift */; };
-		18763A2728634C4B0041FFDE /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18763A2528634C4B0041FFDE /* ContactsTableViewCell.xib */; };
-		18763A2A28634D2B0041FFDE /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A2928634D2B0041FFDE /* ContactViewController.swift */; };
-		18763A2C2863520E0041FFDE /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A2B2863520E0041FFDE /* ContactInfoViewController.swift */; };
 		18763A2E286352EA0041FFDE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A2D286352EA0041FFDE /* UIViewExtensions.swift */; };
 		18763A30286354480041FFDE /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 18763A2F286354480041FFDE /* data.json */; };
 		18763A322863546B0041FFDE /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A312863546B0041FFDE /* UserStruct.swift */; };
 		18763A34286354A00041FFDE /* JsonFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A33286354A00041FFDE /* JsonFileHelper.swift */; };
+		18763A3728635C8D0041FFDE /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A3628635C8D0041FFDE /* ContactInfoViewController.swift */; };
+		18763A3928635C980041FFDE /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A3828635C980041FFDE /* ContactsTableViewCell.swift */; };
+		18763A3B28635CA60041FFDE /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18763A3A28635CA60041FFDE /* ContactViewController.swift */; };
+		18763A3D28635CC30041FFDE /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18763A3C28635CC30041FFDE /* ContactsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +53,14 @@
 		18763A10286348960041FFDE /* iOSTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18763A14286348960041FFDE /* iOSTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITests.swift; sourceTree = "<group>"; };
 		18763A16286348960041FFDE /* iOSTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		18763A2428634C4B0041FFDE /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsTableViewCell.swift; path = ../../../ContactsTableViewCell.swift; sourceTree = "<group>"; };
-		18763A2528634C4B0041FFDE /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactsTableViewCell.xib; path = ../../../ContactsTableViewCell.xib; sourceTree = "<group>"; };
-		18763A2928634D2B0041FFDE /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = ../../../ContactViewController.swift; sourceTree = "<group>"; };
-		18763A2B2863520E0041FFDE /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactInfoViewController.swift; path = ../../../ContactInfoViewController.swift; sourceTree = "<group>"; };
 		18763A2D286352EA0041FFDE /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		18763A2F286354480041FFDE /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		18763A312863546B0041FFDE /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
 		18763A33286354A00041FFDE /* JsonFileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonFileHelper.swift; sourceTree = "<group>"; };
+		18763A3628635C8D0041FFDE /* ContactInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactInfoViewController.swift; path = ViewControllers/ContactInfoViewController.swift; sourceTree = "<group>"; };
+		18763A3828635C980041FFDE /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		18763A3A28635CA60041FFDE /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = Views/ContactViewController.swift; sourceTree = "<group>"; };
+		18763A3C28635CC30041FFDE /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,8 @@
 				18763A2F286354480041FFDE /* data.json */,
 				18763A2328634C1D0041FFDE /* Views */,
 				18763A2828634D030041FFDE /* ViewControllers */,
+				18763A3A28635CA60041FFDE /* ContactViewController.swift */,
+				18763A3628635C8D0041FFDE /* ContactInfoViewController.swift */,
 				187639F9286348900041FFDE /* Main.storyboard */,
 				187639FC286348950041FFDE /* Assets.xcassets */,
 				187639FE286348950041FFDE /* LaunchScreen.storyboard */,
@@ -144,8 +146,8 @@
 		18763A2328634C1D0041FFDE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18763A2428634C4B0041FFDE /* ContactsTableViewCell.swift */,
-				18763A2528634C4B0041FFDE /* ContactsTableViewCell.xib */,
+				18763A3828635C980041FFDE /* ContactsTableViewCell.swift */,
+				18763A3C28635CC30041FFDE /* ContactsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,8 +155,6 @@
 		18763A2828634D030041FFDE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				18763A2928634D2B0041FFDE /* ContactViewController.swift */,
-				18763A2B2863520E0041FFDE /* ContactInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -273,11 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18763A2728634C4B0041FFDE /* ContactsTableViewCell.xib in Resources */,
 				18763A00286348950041FFDE /* LaunchScreen.storyboard in Resources */,
 				187639FD286348950041FFDE /* Assets.xcassets in Resources */,
 				18763A30286354480041FFDE /* data.json in Resources */,
 				187639FB286348900041FFDE /* Main.storyboard in Resources */,
+				18763A3D28635CC30041FFDE /* ContactsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,13 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18763A3928635C980041FFDE /* ContactsTableViewCell.swift in Sources */,
+				18763A3B28635CA60041FFDE /* ContactViewController.swift in Sources */,
 				187639F4286348900041FFDE /* AppDelegate.swift in Sources */,
 				18763A2E286352EA0041FFDE /* UIViewExtensions.swift in Sources */,
-				18763A2C2863520E0041FFDE /* ContactInfoViewController.swift in Sources */,
 				18763A322863546B0041FFDE /* UserStruct.swift in Sources */,
-				18763A2628634C4B0041FFDE /* ContactsTableViewCell.swift in Sources */,
 				18763A34286354A00041FFDE /* JsonFileHelper.swift in Sources */,
-				18763A2A28634D2B0041FFDE /* ContactViewController.swift in Sources */,
+				18763A3728635C8D0041FFDE /* ContactInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
